@@ -1,4 +1,5 @@
-print("A guy (Verb) into a manhole where he (verb) into a dam full of water. Then he picked up a (Object) then (verb) it into the water. Also he met a person named (proper noun)")
+def MabLib(Noun, FirstVerb, SecondVerb, ProNoun, ThirdVerb):
+    print("A guy (Verb) into a manhole where he (verb) into a dam full of water. Then he picked up a (Object) then (verb) it into the water. Also he met a person named (proper noun)")
 Noun = input("Give me a noun now.\n")
 FirstVerb = input("the first verb?\n")
 SecondVerb = input("What is your second verb?\n")
