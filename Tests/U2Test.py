@@ -3,9 +3,9 @@ def AddThreeLetters(x,y,z):
     AddThreeLetters(23,4,6)
 
 
-FirstWord = str(input("What's your first word (Verb)?\n"))
-Secondword = str(input("What's your second word (Verb)?\n"))
-ThirdWord = str(input("What is your third word (Verb)?\n"))
+FirstWord = input("What's your first word (Verb)?\n")
+Secondword = input("What's your second word (Verb)?\n")
+ThirdWord = input("What is your third word (Verb)?\n")
 print(+FirstWord, +Secondword, +ThirdWord)
 
 def dataThree():
