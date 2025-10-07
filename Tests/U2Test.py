@@ -15,4 +15,4 @@ def dataThree():
     word = input("put a word in.")
     numb = input("Put a integer in")
     deci = input("Put a Float in")
-    print(str(int(numb) + float(float) + +word))
+    print(str(int(numb) + float(deci) + word))
