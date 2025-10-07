@@ -8,7 +8,8 @@ Location = input("Which continent/country does your animal live in?")
 Sound = input("which kind of sound does the animal make?")
 PhysicalFeatures = input("How tall is your animal?")
 Pet = input("IS it your pet or out in the wild?")
-Summary = "Favourite ,Skin, Colour, FacialFeatures, Species, Diet, Location, PhysicalFeatures, Sound, Pet"
+Summary = "Your animal is" + Favourite ,Skin, Colour, FacialFeatures, Species, Diet, Location, PhysicalFeatures, Sound, Pet
+print(Summary)
 '''
 Yeah, this is a survey about animals. Very self explanatory.
 
