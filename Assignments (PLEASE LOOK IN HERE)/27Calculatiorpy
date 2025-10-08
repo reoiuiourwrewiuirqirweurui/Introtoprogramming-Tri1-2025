@@ -3,8 +3,6 @@ def add(x,y):
         return(x-y)
     else:
         return(x+y)
-        
-    return(x+y)
 def sub(z,a):
     if(-a):
         return(z+a)
