@@ -17,5 +17,5 @@ def score():
         score = score + 1
     print("Score: " + str(score) + "/5")
 
-
+score()
         
