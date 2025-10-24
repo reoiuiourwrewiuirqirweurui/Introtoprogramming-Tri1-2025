@@ -28,19 +28,20 @@ def Killed():
 def Stolen():
     print("You Stole Some stuff! YOU HAVE MORE OPTIONS")
     print("1. Fight the Monster")
-    print("3. Cheat the systeam")
     print("2. Skip to the ending")
-    print("4. Escape to somewhere else")
+    print("3. Escape to somewhere else")
     Scene2 = input(">")
     if Scene2 == "1":
         NeutralEnding()
-    elif Scene2 == "3":
-        CheaterEnding()
+    else:
+        print("Error!")
     
     if Scene2 == "2":
         TheVoidEnding()
     elif Scene2 == "4":
         LocatedLake()
+    else:
+        print("error")
     
 def GoForest():
     print("You walked into the forest unknownenly that the Town was massacred.")
