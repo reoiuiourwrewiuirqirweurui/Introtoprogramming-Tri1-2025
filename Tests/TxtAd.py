@@ -44,10 +44,13 @@ def Stolen():
         print("error")
     
 def GoForest():
-    print("You walked into the forest unknownenly that the Town was massacred.")
+    print("You walked into the forest unknownenly that the Town was massacred, there are 2 routes.")
     Fowoest = input(">")
     if Fowoest == "1":
-        print("WIP")
+        Meadow()
+    elif Fowoest == "2":
+        TheDarkForest()
+        
 def NeutralEnding():
     print("You're fighting a monster.")
     print("1. Attack the monster with your strength.")
@@ -107,6 +110,50 @@ def TheVoidEnding():
     print("You skipped to the ending but this one is unfinished.")
     return("Void Ending! Try again!")
 
+def Meadow():
+    print("You feel wonderful, but it's TOO wonderful to be here")
+    print("1. You stay in the Meadow a little bit longer...")
+    print("2. Escape The Meadow into the Abandoned city.")
+    ChoicesGoHere = input(">")
+    if ChoicesGoHere == "1":
+        Insanity()
+    elif ChoicesGoHere == "2":
+        AbandonedCity()
+    else:
+        return("Error!")
+def Insanity():
+    print("You start to go insane in this place...")
+    print("1. Still stay here.")
+    print("2. Walk through the path to get out.")
+    Insane = input(">")
+    if Insane == "1":
+        InsaneEnding()
+    elif Insane == "2":
+        TheFancyCity()
+    else:
+        return("Error!")
+def InsaneEnding():
+    print("You went Insane due to the Stimulus here.")
+    return("You got the Insane Ending!")
+def TheDarkForest():
+    print("You see a glowing substance in the distance.")
+    print("1. Touch this substance")
+    print("2. Avoid this substance Completely")
+    TheForest = input(">")
+    if TheForest == "1":
+        Sickness()
+    elif TheForest == "2":
+        ACliffAhead()
+    else:
+        return("Error")
+    
+def Sickness():
+    print("You touch the substance and got sick from it. You feel like a sense of impending doom.")
+    print("1. Keep Going down the path.")
+
+def TheFancyCity():
+def AbandonedCity():
+def ACliffAhead()
 
 
 
