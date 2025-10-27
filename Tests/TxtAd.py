@@ -9,7 +9,7 @@ def JoeMoma():
         GoForest()
     else:
         print("Try Again!")
-    JoeMoma()
+        JoeMoma()
 def GoTown():
     print("You see blood every where")
     print("1. Find the person who caused this.")
@@ -68,7 +68,7 @@ def ItsADreamEnding():
 def LocatedLake():
     print(" You ran to the Lake..")
     print("1. Explore The Area.")
-    print("2. Find Mr. Osowski")
+    print("2.Escape the area so you won't be in danger")
     Lake = input(">")
     if Lake == "1":
         Exploration()
