@@ -44,7 +44,7 @@ def Stolen():
         print("error")
     
 def GoForest():
-    print("You walked into the forest unknownenly that the Town was massacred, there are 2 routes.")
+    print("You walked into the forest, there are 2 routes.")
     Fowoest = input(">")
     if Fowoest == "1":
         Meadow()
@@ -152,8 +152,45 @@ def Sickness():
     print("1. Keep Going down the path.")
 
 def TheFancyCity():
-def AbandonedCity():
-def ACliffAhead()
+    print("You reached The Fancy City. You have a couple of option")
+    print("1. Live in the city.")
+    print("2. Walk on.")
+    HeartfeltFancy = input(">")
+    if HeartfeltFancy == "1":
+        GreatEnding()
+    elif HeartfeltFancy == "2":
+        ThecaveWithin()
+    else:
+        return("Error!")
+def GreatEnding():
+    print("You live in the city. Now you're sucessful in businesses!")
+    return("You got the Great Ending!")
+def ThecaveWithin():
+    print("You go out of the city and you walked into a cave and you went in there. There Are 4 paths to take.")
+    print("1. Go to the Far left.")
+    print("2. Go to the central right.")
+    print("3. Go to far right.")
+    print("4. Go to central left.")
+    Caves = input(">")
+    if Caves == "1":
+        StuckEnding()
+    elif Caves == "2":
+        AttackedEnding()
+    elif Caves == "3":
+        LoadsOfMoney()
+    elif Caves == "4":
+        MadeItOut()
+    else:
+        print("Error!")
+def StuckEnding():
+    print("You went this route and fell and got stuck in a cave spot. Now you can't escape.")
+    return("Stuck Ending acheived!")
+def AttackedEnding():
+    print("You were attacked by a Cave monster and tried to get out.")
+    return("You got the Attacked ending!")
+
+
+    
 
 
 
