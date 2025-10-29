@@ -162,6 +162,7 @@ def TheFancyCity():
         ThecaveWithin()
     else:
         return("Error!")
+    TheFancyCity()
 def GreatEnding():
     print("You live in the city. Now you're sucessful in businesses!")
     return("You got the Great Ending!")
@@ -188,6 +189,48 @@ def StuckEnding():
 def AttackedEnding():
     print("You were attacked by a Cave monster and tried to get out.")
     return("You got the Attacked ending!")
+def LoadsOfMoney():
+    print("You found money while taking this route.")
+def Escape():
+    print("How would you escape?")
+    print("1. Build a Boat.")
+    print("2. Run by foot.")
+    Choices = input(">")
+    if Choices == "1":
+        BoatEnding()
+    elif Choices == "2":
+        FootEnding()
+    else:
+        return("Error!")
+def BoatEnding():
+    print("You escape by the boat and arrived at a land of mysterium")
+    return("You got the boat ending!")
+def FootEnding():
+    print("You ran until you arrived at the land of the spider lillies.")
+    return("You got the Foot ending!")
+def AbandonedCity():
+    print("You're at the Abandoned City and you don't know what you're doing. You have options.")
+    print("1. Go explore the city.")
+    print("2. Stay at the City.")
+    City = input(">")
+    if City == "1":
+        FoodEnding()
+    elif City == "2":
+        PoorEnding()
+    else:
+        return("error")
+def FoodEnding():
+    print("You found food in one of the buildings")
+    return("You got the food ending, so random!")
+def PoorEnding():
+    print("You are stuck at this city not knowing what to do or find!")
+    return("You got the poor ending!")
+
+def MadeItOut():
+    print("You made out of the cave.")
+
+
+
 
 
     
