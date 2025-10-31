@@ -1,5 +1,5 @@
 def JoeMoma():
-    print("Yeah, this is self explanatory. YOu have Options to make ")
+    print("Yeah, this is self explanatory, don't expect this game to not pull random crap out of their butt. YOu have Options to make ")
     print("1. Go to Town")
     print("2. Go to the Forest.")
     choice = input(">")
@@ -42,6 +42,7 @@ def Stolen():
         LocatedLake()
     else:
         print("error")
+        Stolen()
     
 def GoForest():
     print("You walked into the forest, there are 2 routes.")
@@ -219,6 +220,7 @@ def AbandonedCity():
         PoorEnding()
     else:
         return("error")
+    AbandonedCity()
 def FoodEnding():
     print("You found food in one of the buildings")
     return("You got the food ending, so random!")
@@ -227,7 +229,81 @@ def PoorEnding():
     return("You got the poor ending!")
 
 def MadeItOut():
-    print("You made out of the cave.")
+    print("You made out of the cave. You have a few options")
+    print("1. Meet with Mr. Osowski")
+    print("2. Find the Button")
+    c00l = input(">")
+    if c00l == "1":
+        MrOsowskiEnding()
+    elif c00l == "2":
+        Buttonisation()
+    else:
+        return("Error!")
+    MadeItOut()
+    
+def ACliffAhead():
+    print("You found a cliff ahead, You also found a Bridge.")
+    print("")
+def MrOsowskiEnding():
+    print("You found Mr. Osowski and he's the teacher of this student's game")
+    return("You found the Mr. Osowski ending!")
+def Buttonisation():
+    print("You found a button and pressed it. You got transported into a kingdom; you have a few options.")
+    print("1. Talk to the townspeople.")
+    print("2. Go to the Castle")
+    #This is different from the Town earlier where the people are alive instead of dead.
+    Town = input(">")
+    if Town == "1":
+        MysteriousPerson()
+    elif Town == "2":
+        MeetKing()
+    else:
+        return("Error!")
+    Buttonisation()
+def MysteriousPerson():
+    print("You Interacted with this person. They offer to teleport you.")
+    print("1. Accept their offer")
+    print("2. Refuse and stay in the town")
+    Offering = input("")
+    if Offering == "1":
+        Athome()
+    elif Offering == "2":
+        MedievalEnding()
+    else:
+        return("Error!")
+    MysteriousPerson()
+def Athome():
+    print("You're teleport to your house")
+    return("House Ending Unlocked!")
+def MeetKing():
+    print("You meet with the king. You have options to make")
+    print("1. Try to dethrone him.")
+    print("2. Try to Assassinate him. ")
+    King = input(">")
+    if King == "1":
+        KingEnding()
+    elif King == "2":
+        JailedEnding()
+    else:
+        return("Error!")
+    MeetKing()
+def MedievalEnding():
+    print("Yeah you know what happend.")
+    return("Medieval ending Unlocked!")
+def KingEnding():
+    print("You manage to overthrow him forcefully and fully took power of the kingdom, somehow.")
+    return("King Ending!")
+def JailedEnding():
+    print("You tried to assassinate the king but you got thrown in to Jail for doing so.")
+    #This is different from the Stuck ending as it takes in a different place and also you aren't falling.
+    return("You got the Jailed ending!")
+
+
+
+
+
+
+    
 
 
 
